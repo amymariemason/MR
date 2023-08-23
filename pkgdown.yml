@@ -1,0 +1,13 @@
+pandoc: 2.19.2
+pkgdown: 2.0.7
+pkgdown_sha: ~
+articles:
+  Data_Input: Data_Input.html
+  Graphs_for_MR: Graphs_for_MR.html
+  Multivariable_MR_Methods: Multivariable_MR_Methods.html
+  Univariable_MR_Methods: Univariable_MR_Methods.html
+last_built: 2023-08-23T14:52Z
+urls:
+  reference: https://amymariemason.github.io/MR_public_scratch/reference
+  article: https://amymariemason.github.io/MR_public_scratch/articles
+
