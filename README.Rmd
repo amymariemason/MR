@@ -22,7 +22,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-The MendelianRandomization R package provides a comprehensive set of methods for performing Mendelian randomization analyses with summarized data. We include methods for both single exposure and multiple exposure analyses, as well as methods to manage correlated instruments.
+The MendelianRandomization R package provides a comprehensive set of methods for performing Mendelian randomization analyses with summarized data. We include methods for both single exposure and multiple exposure analyses, as well as methods to manage correlated instruments. 
 
 Summarized data on genetic associations with the exposure and with the outcome can be obtained from large consortia using websites such as [PhenoScanner](http://www.phenoscanner.medschl.cam.ac.uk/) and [GWAS catalog](https://www.ebi.ac.uk/gwas/). These data can be used for obtaining causal estimates using Mendelian randomization. For an overview of this approach see [here](https://www.mendelianrandomization.com/index.php/what-is-mr) for links to explanations and examples.
 
