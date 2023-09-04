@@ -21,7 +21,7 @@ An analytic approach when genetic variants are associated with multiple risk fac
 
 There are two contexts in which we envision the method being used. First, when there is a set of related risk factors, such as lipid fractions. It is difficult to find genetic predictors of HDL-cholesterol that do not also predict LDL-cholesterol and/or triglycerides. Multivariable Mendelian randomization allows genetic variants to be associated with all the risk factors in the model provided that they do not influence the outcome via other pathways. Secondly, when there is a network of risk factors, typically a primary risk factor and a secondary risk factor or mediator. In both cases, multivariable estimates reflect direct causal effects - the result of intervening on the risk factor under analysis while keeping other risk factors in the model fixed.
 
-## the MRMVInput format
+## Input format
 As the multivariable method requires genetic associations with multiple risk factors, a different input function is needed: *mr_mvinput*, which creates an *MRMVInput* object:
 
 ```{r}
@@ -138,9 +138,9 @@ MVcMLObject
 
 ## Multivariable GMM
 
-Multivariable Mendelian randomization via the generalized method of moments method as described in Hansen (1982) "Large sample properties of generalized method of moments estimators" DOI 10.2307/1912775 
+Multivariable Mendelian randomization via the generalized method of moments method (GMM) is implemented by the *mr_mvgmm* command. The key advantage of the GMM method is that estimates are more robust to weak instrument bias and/or measurement error in the exposures compared with the standard IVW method. Weak instrument bias is particularly important in the multivariable setting, as bias in the multivariable setting can be in any direction, particularly if instrument strength varies between the exposures.
 
-The method accounts for overdispersion heterogeneity in genetic variant-outcome associations.
+Unlike the multivariable IVW method (*mr_mvivw*), the multivariable GMM method requires the sample sizes for genetic associations with the exposure, and the sample size for the genetic associations with the outcome. The method accounts for overdispersion heterogeneity in genetic variant-outcome associations (using the default option *robust = TRUE*).
 
 ```{r}
 
