@@ -1,4 +1,18 @@
 bibentry(bibtype = "Article",
+         title = "MendelianRandomization: an R package for performing Mendelian randomization analyses using summarized data",
+         author = c(person("Olena", "Yavorska"),
+                    person("Stephen", "Burgess")),
+         year = "2017",
+         journal = "International Journal of Epidemiology",
+         year      = "2017",
+         volume    = "46",
+         number    = "6",
+         pages     = "1734--1739",
+         doi = "10.1093/ije/dyx034",
+         header = "To cite the package 'MendelianRandomization', please use:"
+)
+
+bibentry(bibtype = "Article",
          title = "MendelianRandomization v0.5.0: updates to an R package for performing Mendelian randomization analyses using summarized data",
          author = c(person("Jim R", "Broadbent"),
                     person("Christopher N", "Foley"),
@@ -9,5 +23,5 @@ bibentry(bibtype = "Article",
          year = "2020",
          journal = "Wellcome Open Research",
          doi = "10.12688/wellcomeopenres.16374.2",
-         header = "To cite the package 'MendelianRandomization' use:"
+         header = "Or to cite recent updates to the package, please use:"
 )
