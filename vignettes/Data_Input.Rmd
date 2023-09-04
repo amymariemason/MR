@@ -70,7 +70,7 @@ However, care must be taken in this case to give the vectors in the correct orde
 
 The PhenoScanner bioinformatic tool (http://phenoscanner.medschl.cam.ac.uk) is a curated database of publicly available results from large-scale genetic association studies. The database currently contains over 65 billion associations and association results and over 150 million unique genetic variants, mostly single nucleotide polymorphisms.
 
-PhenoScanner can be called directly from the MendelianRandomization package using the *pheno_input()* function. This creates an *MRInput* function, which can be directly used as an input to any of the estimation functions. For example:
+For advanced users, PhenoScanner can be called directly from the MendelianRandomization package using the *pheno_input()* function. This creates an *MRInput* function, which can be directly used as an input to any of the estimation functions. For example:
 
 ```{r, eval = FALSE}
 mr_ivw(pheno_input(snps=c("rs12916", "rs2479409", 

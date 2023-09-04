@@ -26,7 +26,7 @@ navbar:
     articles:
       text: Package components
       menu:
-      - text: Data Input commands
+      - text: Data input commands
         href: articles/Data_Input.html
       - text: Univariable estimation methods
         href: articles/Univariable_MR_Methods.html

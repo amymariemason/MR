@@ -86,7 +86,7 @@ We see that estimates from all methods are similar when LDL-cholesterol is the r
 
 ## Forest plot
 
-Other graphical functions are the *mr_forest* command, which can either provide a forest plot of the variant-specific estimates:
+The *mr_forest* command can either provide a forest plot of the variant-specific estimates:
 
 ```{r}
 mr_forest(MRInputObject, ordered=TRUE)
@@ -102,7 +102,7 @@ mr_forest(MRInputObject,
 
 ## Funnel plot
 
-The *mr_funnel* command, which provides a funnel plot of the variant-specific estimates against their precision (that is, the reciprocal of the standard error):
+The *mr_funnel* command provides a funnel plot of the variant-specific estimates against their precision (that is, the reciprocal of the standard error):
 
 ```{r}
  mr_funnel(mr_input(bx = ldlc[1:8], bxse = ldlcse[1:8],
@@ -113,7 +113,7 @@ The *mr_funnel* command, which provides a funnel plot of the variant-specific es
 
 ## Leave-one-out plot
 
-And the *mr_loo* command, which provides the leave-one-out estimates - that is, the estimate based on all variants except variant 1, then the based on all variants except variant 2, and so on.
+And the *mr_loo* command provides the leave-one-out estimates - that is, the estimate based on all variants except variant 1, then the estimate based on all variants except variant 2, and so on.
 
 ```{r}
 mr_loo(MRInputObject)
