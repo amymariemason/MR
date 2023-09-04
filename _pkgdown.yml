@@ -21,12 +21,12 @@ navbar:
     right: github
   components:
     reference:
-      text: Reference
+      text: List of functions
       href: reference/index.html
     articles:
-      text: Articles
+      text: Package components
       menu:
-      - text: Data Input
+      - text: Data Input commands
         href: articles/Data_Input.html
       - text: Univariable estimation methods
         href: articles/Univariable_MR_Methods.html
