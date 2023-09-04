@@ -14,9 +14,9 @@ knitr::opts_chunk$set(echo = TRUE, fig.align = 'center')
 library(MendelianRandomization)
 ```
 
-## MRInput Object: display the data
+## MRInput object: display the data
 
-The *mr_plot* function has two different functionalities. First, if the function is applied to an *MRInput* object, then the output is an interactive graph that can be used to explore the associations of the different genetic variants and look for outliers, which may represent pleiotropic variants.
+The *mr_plot* function has two different functionalities. First, if the function is applied to an *MRInput* object or an *MRMVInput* object, then the output is an interactive graph that can be used to explore the associations of the different genetic variants and look for outliers, which may represent pleiotropic variants.
 
 The syntax is:
 
@@ -58,7 +58,7 @@ MVMRInputObject <- mr_mvinput(bx = cbind(ldlc, hdlc, trig),
 mr_plot(MVMRInputObject, interactive = FALSE)
 ```
 
-## MRAll object - comparison of estimates
+## MRAll object: comparison of estimates
 
 Finally, if the *mr_plot* function is applied to the output of the *mr_allmethods* function, estimates from the different methods can be compared graphically.
 
@@ -84,7 +84,7 @@ mr_plot(mr_allmethods(mr_input(bx = hdlc, bxse = hdlcse,
 
 We see that estimates from all methods are similar when LDL-cholesterol is the risk factor, but the MR-Egger estimates differ substantially when HDL-cholesterol is the risk factor.
 
-## Other graphical functions
+## Forest plot
 
 Other graphical functions are the *mr_forest* command, which can either provide a forest plot of the variant-specific estimates:
 
@@ -100,6 +100,8 @@ mr_forest(MRInputObject,
           snp_estimates = FALSE)
 ```
 
+## Funnel plot
+
 The *mr_funnel* command, which provides a funnel plot of the variant-specific estimates against their precision (that is, the reciprocal of the standard error):
 
 ```{r}
@@ -108,6 +110,8 @@ The *mr_funnel* command, which provides a funnel plot of the variant-specific es
 ```
 
 (Note we only plot the first 8 variants here)
+
+## Leave-one-out plot
 
 And the *mr_loo* command, which provides the leave-one-out estimates - that is, the estimate based on all variants except variant 1, then the based on all variants except variant 2, and so on.
 
