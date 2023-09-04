@@ -26,7 +26,7 @@ links to explanations and examples.
 
 ``` r
 # Install released version from CRAN
-install.packages("Mendelian Randomization")
+install.packages("MendelianRandomization")
 ```
 
 ## Usage
