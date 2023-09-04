@@ -15,9 +15,9 @@ analyses, as well as methods to manage correlated instruments.
 
 Summarized data on genetic associations with the exposure and with the
 outcome can be obtained from large consortia using websites such as
-[Phenoscanner](http://www.phenoscanner.medschl.cam.ac.uk/) and [GWAS
+[PhenoScanner](http://www.phenoscanner.medschl.cam.ac.uk/) and [GWAS
 catalog](https://www.ebi.ac.uk/gwas/). These data can be used for
-obtaining causal estimates using Mendelian Randomization. For an
+obtaining causal estimates using Mendelian randomization. For an
 overview of this approach see
 [here](https://www.mendelianrandomization.com/index.php/what-is-mr) for
 links to explanations and examples.
@@ -26,7 +26,7 @@ links to explanations and examples.
 
 ``` r
 # Install released version from CRAN
-install.packages("Mendelian Randomization")
+install.packages("MendelianRandomization")
 ```
 
 ## Usage
