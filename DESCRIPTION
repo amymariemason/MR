@@ -3,7 +3,7 @@ Type: Package
 Title: Mendelian Randomization Package
 Version: 0.9.0
 Date: 2023-08-07
-Authors@R: c(person("Stephen", "Burgess", role = c("aut","cre"), email="sb452@medschl.cam.ac.uk"),
+Authors@R: c(person("Stephen", "BurgessA", role = c("aut","cre"), email="sb452@medschl.cam.ac.uk"),
               person("Olena", "Yavorska", role = "aut", email ="olena.yavorska@ludwig.ox.ac.uk"),
               person("James", "Staley", role="aut", email = "james.staley@bristol.ac.uk"),
               person("Jim", "Broadbent", role = "ctb"),
