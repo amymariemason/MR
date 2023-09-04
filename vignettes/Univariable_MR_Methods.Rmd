@@ -30,7 +30,8 @@ The default option for the weights is *"simple"*, which corresponds to an invers
 
 The *mr_ivw* function automatically calculates an approximation to the first-stage F statistic from regression of the exposure on the genetic variants. This is an important measure of instrument strength. When the correlation matrix is specified, calculation of the estimated F statistic accounts for the correlation between variants. When a correlation matrix is specified, a warning message appears to remind the user of the importance of correct harmonization of the correlation matrix to the same effect and other alleles as the genetic associations with the exposure and outcome.
 
-### IVW Example with uncorrelated variants
+### IVW method: Example with uncorrelated variants
+
 ```{r}
 MRInputObject <- mr_input(bx = ldlc, 
                           bxse = ldlcse, 
@@ -61,7 +62,8 @@ MRInputObject.cor <- mr_input(bx = calcium,
                               corr = calc.rho)
 ```
 
-### Example with uncorrelated variants
+### IVW method: example with correlated variants
+
 ```{r}
 
 MRInputObject.cor  # example with correlated variants
