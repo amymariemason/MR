@@ -24,7 +24,7 @@
 <li class="nav-item dropdown">
   <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" id="dropdown-package-components">Package components</a>
   <div class="dropdown-menu" aria-labelledby="dropdown-package-components">
-    <a class="dropdown-item" href="articles/Data_Input.html">Data Input commands</a>
+    <a class="dropdown-item" href="articles/Data_Input.html">Data input commands</a>
     <a class="dropdown-item" href="articles/Univariable_MR_Methods.html">Univariable estimation methods</a>
     <a class="dropdown-item" href="articles/Multivariable_MR_Methods.html">Multivariable estimation methods</a>
     <a class="dropdown-item" href="articles/Graphs_for_MR.html">Graphical summaries of results</a>
@@ -53,8 +53,8 @@
 
 <p><a href="https://github.com/amymariemason/MR_public_scratch/actions/workflows/r.yml" class="external-link"><img src="https://github.com/amymariemason/MR_public_scratch/actions/workflows/r.yml/badge.svg" alt="R-CMD-check"></a> <a href="https://CRAN.R-project.org/package=MendelianRandomization" class="external-link"><img src="https://www.r-pkg.org/badges/version/MendelianRandomization" alt="CRAN status"></a></p>
 <!-- badges: end -->
-<p>The MendelianRandomization R package provides a comprehensive set of methods for performing Mendelian randomization analyses with summarized data. We include methods for both single exposure and multiple exposure analyses, as well as methods to manage correlated instruments.</p>
-<p>Summarized data on genetic associations with the exposure and with the outcome can be obtained from large consortia using websites such as <a href="http://www.phenoscanner.medschl.cam.ac.uk/" class="external-link">PhenoScanner</a> and <a href="https://www.ebi.ac.uk/gwas/" class="external-link">GWAS catalog</a>. These data can be used for obtaining causal estimates using Mendelian randomization. For an overview of this approach see <a href="https://www.mendelianrandomization.com/index.php/what-is-mr" class="external-link">here</a> for links to explanations and examples.</p>
+<p>The MendelianRandomization R package provides a comprehensive set of methods for performing Mendelian randomization analyses with summarized data. We include methods for both single exposure (univariable) and multiple exposure (multivariable) analyses, as well as options to account for correlated variants in several methods.</p>
+<p>Summarized data on genetic associations with traits and diseases from large consortia can be accessed using websites such as <a href="http://www.phenoscanner.medschl.cam.ac.uk/" class="external-link">PhenoScanner</a> and the <a href="https://www.ebi.ac.uk/gwas/" class="external-link">GWAS catalog</a>. These data can be used to obtain causal estimates following the Mendelian randomization paradigm. For an overview of this approach, see <a href="https://www.mendelianrandomization.com/index.php/what-is-mr" class="external-link">here</a> for links to explanations and examples.</p>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a></h2>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
@@ -63,33 +63,31 @@
 </div>
 <div class="section level2">
 <h2 id="usage">Usage<a class="anchor" aria-label="anchor" href="#usage"></a></h2>
-<p>If you are just getting started with MendelianRandomization we recommend starting with the tutorial <a href="articles/Data_Input.html">vignettes</a>, starting with understanding the data input format.</p>
+<p>If you are just getting started with Mendelian randomization, we recommend following the brief example analysis below, and then working through the package component vignettes, starting with the <a href="articles/Data_Input.html">data input vignette</a>.</p>
 </div>
 <div class="section level2">
 <h2 id="bugs-and-feedback">Bugs and Feedback<a class="anchor" aria-label="anchor" href="#bugs-and-feedback"></a></h2>
-<p>If you encounter any issues, bugs, or have suggestions for improvements while using our R package, then let us know.</p>
-<p>Please report bugs to the package maintainer <a href="mailto:sb452@medschl.cam.ac.uk">Stephen Burgess</a></p>
-<p>We are particularly keen to include further MR analysis code for other two sample MR methods in our package. Please let us know if you have working R code that is useful to include.<br>
-You can <a href="https://github.com/cran/MendelianRandomization" class="external-link">fork the package from Github</a> to test adding additional function compatibility.</p>
+<p>If you encounter any issues, bugs, or have suggestions for improvements for our R package, please report to the package maintainer <a href="mailto:sb452@medschl.cam.ac.uk">Stephen Burgess</a>.</p>
+<p>We are keen to include further summarized data Mendelian randomization methods in our package, and any other customized code that you want to share with others. You can <a href="https://github.com/cran/MendelianRandomization" class="external-link">fork the package from Github</a> to test for compatibility with the existing package.</p>
 </div>
 <div class="section level2">
-<h2 id="example-analysis">Example Analysis<a class="anchor" aria-label="anchor" href="#example-analysis"></a></h2>
-<p>This is an example analysis of lipid effects on coronary artery disease using the example data included with the package.</p>
+<h2 id="example-analysis">Example analysis<a class="anchor" aria-label="anchor" href="#example-analysis"></a></h2>
+<p>This is an example analysis to investigate lipid effects on coronary artery disease risk using the example data included with the package.</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/amymariemason/MR_public_scratch" class="external-link">MendelianRandomization</a></span><span class="op">)</span> <span class="co">#load package</span></span>
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/amymariemason/MR_public_scratch" class="external-link">MendelianRandomization</a></span><span class="op">)</span> <span class="co"># load package</span></span>
 <span></span>
 <span><span class="va">MRInputObject</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/mr_input.html">mr_input</a></span><span class="op">(</span>bx <span class="op">=</span> <span class="va">ldlc</span>, </span>
 <span>                          bxse <span class="op">=</span> <span class="va">ldlcse</span>, </span>
 <span>                          by <span class="op">=</span> <span class="va">chdlodds</span>, </span>
 <span>                          byse <span class="op">=</span> <span class="va">chdloddsse</span><span class="op">)</span></span></code></pre></div>
-<p>The variables ldlc, hdlc, trig, and chdlodds are the genetic associations with (respectively) LDL-cholesterol, HDL-cholesterol, triglycerides, and coronary heart disease (CHD) risk for 28 genetic variants reported by Waterworth et al (2010). The respective standard errors of the associations are given as ldlcse, hdlcse, trigse, and chdloddsse.</p>
+<p>The variables <em>ldlc</em>, <em>hdlc</em>, <em>trig</em>, and <em>chdlodds</em> are the genetic associations with (respectively) LDL-cholesterol, HDL-cholesterol, triglycerides, and coronary heart disease (CHD) risk for 28 genetic variants reported by Waterworth et al (2010). The respective standard errors of the associations are given as <em>ldlcse</em>, <em>hdlcse</em>, <em>trigse</em>, and <em>chdloddsse</em>.</p>
 <div class="section level3">
-<h3 id="perform-mendelian-randomization-analysis">Perform Mendelian randomization analysis<a class="anchor" aria-label="anchor" href="#perform-mendelian-randomization-analysis"></a></h3>
-<p>We can use this package to perform two-sample Mendelian Randomization analysis with a wide variety of methods. Here we show the inverse weighted variance method.</p>
+<h3 id="perform-inverse-variance-weighted-method">Perform inverse-variance weighted method<a class="anchor" aria-label="anchor" href="#perform-inverse-variance-weighted-method"></a></h3>
+<p>We can use this package to perform a two-sample Mendelian Randomization analysis using a wide variety of methods. Here we show the inverse-weighted variance method:</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="va">MRAllObject_ivw</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/mr_ivw.html">mr_ivw</a></span><span class="op">(</span><span class="va">MRInputObject</span><span class="op">)</span> <span class="co"># Perform IVW Mendelian randomization analysis</span></span>
+<code class="sourceCode R"><span><span class="va">MRAllObject_ivw</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/mr_ivw.html">mr_ivw</a></span><span class="op">(</span><span class="va">MRInputObject</span><span class="op">)</span> <span class="co"># perform IVW method</span></span>
 <span></span>
-<span><span class="va">MRAllObject_ivw</span>  <span class="co">#view results</span></span>
+<span><span class="va">MRAllObject_ivw</span>  <span class="co"># view results</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Inverse-variance weighted method</span></span>
 <span><span class="co">#&gt; (variants uncorrelated, random-effect model)</span></span>
@@ -104,16 +102,20 @@ You can <a href="https://github.com/cran/MendelianRandomization" class="external
 <span><span class="co">#&gt; Heterogeneity test statistic (Cochran's Q) = 99.5304 on 27 degrees of freedom, (p-value = 0.0000). I^2 = 72.9%. </span></span>
 <span><span class="co">#&gt; F statistic = 28.0.</span></span>
 <span></span>
-<span><span class="fu"><a href="reference/mr_plot.html">mr_plot</a></span><span class="op">(</span><span class="va">MRInputObject</span>, line<span class="op">=</span><span class="st">"ivw"</span>, interactive <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span> <span class="co">#plot results</span></span></code></pre></div>
-<p><img src="reference/figures/README-Image2-1.png" width="100%"></p>
+<span><span class="fu"><a href="reference/mr_plot.html">mr_plot</a></span><span class="op">(</span><span class="va">MRInputObject</span>, line<span class="op">=</span><span class="st">"ivw"</span>, interactive <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span> <span class="co"># plot results</span></span></code></pre></div>
+<div class="figure">
+<img src="reference/figures/README-Image2-1.png" alt="plot of chunk Image2" width="100%"><p class="caption">
+plot of chunk Image2
+</p>
+</div>
 </div>
 <div class="section level3">
-<h3 id="sensitivity-analysis">Sensitivity Analysis<a class="anchor" aria-label="anchor" href="#sensitivity-analysis"></a></h3>
-<p>To assess the robustness of our results, we can perform sensitivity analyses, such as the Egger regression and the weighted median method:</p>
+<h3 id="alternative-analysis-methods">Alternative analysis methods<a class="anchor" aria-label="anchor" href="#alternative-analysis-methods"></a></h3>
+<p>To assess the robustness of our results, we can perform other methods, such as the MR-Egger and weighted median methods:</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="va">MRAllObject</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/mr_allmethods.html">mr_allmethods</a></span><span class="op">(</span><span class="va">MRInputObject</span>, method<span class="op">=</span><span class="st">"main"</span><span class="op">)</span> <span class="co"># Perform mr-Egger and median Mendelian randomization analysis</span></span>
+<code class="sourceCode R"><span><span class="va">MRAllObject</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/mr_allmethods.html">mr_allmethods</a></span><span class="op">(</span><span class="va">MRInputObject</span>, method<span class="op">=</span><span class="st">"main"</span><span class="op">)</span> <span class="co"># perform MR-Egger and median methods</span></span>
 <span></span>
-<span><span class="va">MRAllObject</span>  <span class="co">#view results</span></span>
+<span><span class="va">MRAllObject</span>  <span class="co"># view results</span></span>
 <span><span class="co">#&gt;           Method Estimate Std Error 95% CI        P-value</span></span>
 <span><span class="co">#&gt;    Simple median    1.755     0.740   0.305 3.205   0.018</span></span>
 <span><span class="co">#&gt;  Weighted median    2.683     0.419   1.862 3.504   0.000</span></span>
@@ -121,9 +123,13 @@ You can <a href="https://github.com/cran/MendelianRandomization" class="external
 <span><span class="co">#&gt;         MR-Egger    3.253     0.770   1.743 4.762   0.000</span></span>
 <span><span class="co">#&gt;      (intercept)   -0.011     0.015  -0.041 0.018   0.451</span></span>
 <span></span>
-<span><span class="fu"><a href="reference/mr_plot.html">mr_plot</a></span><span class="op">(</span><span class="va">MRAllObject</span><span class="op">)</span> <span class="co">#plot results</span></span></code></pre></div>
-<p><img src="reference/figures/README-Image3-1.png" width="100%"></p>
-<p>For more methods see the Vignettes on univariable and multivariable methods.</p>
+<span><span class="fu"><a href="reference/mr_plot.html">mr_plot</a></span><span class="op">(</span><span class="va">MRAllObject</span><span class="op">)</span> <span class="co"># plot results</span></span></code></pre></div>
+<div class="figure">
+<img src="reference/figures/README-Image3-1.png" alt="plot of chunk Image3" width="100%"><p class="caption">
+plot of chunk Image3
+</p>
+</div>
+<p>For more methods, see the vignettes on <a href="articles/Univariable_MR_Methods.html">univariable</a> and <a href="articles/Multivariable_MR_Methods.html">multivariable</a> methods.</p>
 </div>
 </div>
 

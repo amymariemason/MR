@@ -41,7 +41,7 @@
 <li class="active nav-item dropdown">
   <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" id="dropdown-package-components">Package components</a>
   <div class="dropdown-menu" aria-labelledby="dropdown-package-components">
-    <a class="dropdown-item" href="../articles/Data_Input.html">Data Input commands</a>
+    <a class="dropdown-item" href="../articles/Data_Input.html">Data input commands</a>
     <a class="dropdown-item" href="../articles/Univariable_MR_Methods.html">Univariable estimation methods</a>
     <a class="dropdown-item" href="../articles/Multivariable_MR_Methods.html">Multivariable estimation methods</a>
     <a class="dropdown-item" href="../articles/Graphs_for_MR.html">Graphical summaries of results</a>
@@ -173,8 +173,8 @@ substantially when HDL-cholesterol is the risk factor.</p>
 <div class="section level2">
 <h2 id="forest-plot">Forest plot<a class="anchor" aria-label="anchor" href="#forest-plot"></a>
 </h2>
-<p>Other graphical functions are the <em>mr_forest</em> command, which
-can either provide a forest plot of the variant-specific estimates:</p>
+<p>The <em>mr_forest</em> command can either provide a forest plot of
+the variant-specific estimates:</p>
 <div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="../reference/mr_forest.html">mr_forest</a></span><span class="op">(</span><span class="va">MRInputObject</span>, ordered<span class="op">=</span><span class="cn">TRUE</span><span class="op">)</span></span></code></pre></div>
 <p><img src="Graphs_for_MR_files/figure-html/unnamed-chunk-9-1.png" width="700" style="display: block; margin: auto;"></p>
@@ -188,7 +188,7 @@ can either provide a forest plot of the variant-specific estimates:</p>
 <div class="section level2">
 <h2 id="funnel-plot">Funnel plot<a class="anchor" aria-label="anchor" href="#funnel-plot"></a>
 </h2>
-<p>The <em>mr_funnel</em> command, which provides a funnel plot of the
+<p>The <em>mr_funnel</em> command provides a funnel plot of the
 variant-specific estimates against their precision (that is, the
 reciprocal of the standard error):</p>
 <div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
@@ -200,9 +200,9 @@ reciprocal of the standard error):</p>
 <div class="section level2">
 <h2 id="leave-one-out-plot">Leave-one-out plot<a class="anchor" aria-label="anchor" href="#leave-one-out-plot"></a>
 </h2>
-<p>And the <em>mr_loo</em> command, which provides the leave-one-out
-estimates - that is, the estimate based on all variants except variant
-1, then the based on all variants except variant 2, and so on.</p>
+<p>And the <em>mr_loo</em> command provides the leave-one-out estimates
+- that is, the estimate based on all variants except variant 1, then the
+estimate based on all variants except variant 2, and so on.</p>
 <div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="../reference/mr_loo.html">mr_loo</a></span><span class="op">(</span><span class="va">MRInputObject</span><span class="op">)</span></span></code></pre></div>
 <p><img src="Graphs_for_MR_files/figure-html/unnamed-chunk-12-1.png" width="700" style="display: block; margin: auto;"></p>

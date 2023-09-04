@@ -41,7 +41,7 @@
 <li class="active nav-item dropdown">
   <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" id="dropdown-package-components">Package components</a>
   <div class="dropdown-menu" aria-labelledby="dropdown-package-components">
-    <a class="dropdown-item" href="../articles/Data_Input.html">Data Input commands</a>
+    <a class="dropdown-item" href="../articles/Data_Input.html">Data input commands</a>
     <a class="dropdown-item" href="../articles/Univariable_MR_Methods.html">Univariable estimation methods</a>
     <a class="dropdown-item" href="../articles/Multivariable_MR_Methods.html">Multivariable estimation methods</a>
     <a class="dropdown-item" href="../articles/Graphs_for_MR.html">Graphical summaries of results</a>
@@ -182,10 +182,11 @@ database of publicly available results from large-scale genetic
 association studies. The database currently contains over 65 billion
 associations and association results and over 150 million unique genetic
 variants, mostly single nucleotide polymorphisms.</p>
-<p>PhenoScanner can be called directly from the MendelianRandomization
-package using the <em>pheno_input()</em> function. This creates an
-<em>MRInput</em> function, which can be directly used as an input to any
-of the estimation functions. For example:</p>
+<p>For advanced users, PhenoScanner can be called directly from the
+MendelianRandomization package using the <em>pheno_input()</em>
+function. This creates an <em>MRInput</em> function, which can be
+directly used as an input to any of the estimation functions. For
+example:</p>
 <div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="../reference/mr_ivw.html">mr_ivw</a></span><span class="op">(</span><span class="fu"><a href="../reference/pheno_input.html">pheno_input</a></span><span class="op">(</span>snps<span class="op">=</span><span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"rs12916"</span>, <span class="st">"rs2479409"</span>, </span>
 <span>                          <span class="st">"rs217434"</span>, <span class="st">"rs1367117"</span>,</span>

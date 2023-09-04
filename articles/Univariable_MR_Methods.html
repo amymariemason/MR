@@ -41,7 +41,7 @@
 <li class="active nav-item dropdown">
   <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" id="dropdown-package-components">Package components</a>
   <div class="dropdown-menu" aria-labelledby="dropdown-package-components">
-    <a class="dropdown-item" href="../articles/Data_Input.html">Data Input commands</a>
+    <a class="dropdown-item" href="../articles/Data_Input.html">Data input commands</a>
     <a class="dropdown-item" href="../articles/Univariable_MR_Methods.html">Univariable estimation methods</a>
     <a class="dropdown-item" href="../articles/Multivariable_MR_Methods.html">Multivariable estimation methods</a>
     <a class="dropdown-item" href="../articles/Graphs_for_MR.html">Graphical summaries of results</a>
@@ -701,19 +701,19 @@ reference for details).</p>
 <div class="section level3">
 <h3 id="principal-components-gmm-method">Principal components GMM method<a class="anchor" aria-label="anchor" href="#principal-components-gmm-method"></a>
 </h3>
-<p>The principal components GMM method is an implementation of the GMM
-method with summarized data that is designed for use when performing
-Mendelian randomization using genetic variants from a single gene
-region. As an alternative to pruning and clumping approaches, which take
-a large number of variants from a gene region (potentially hundreds or
-thousands) and select a small number of uncorrelated (or weakly
-correlated) variants, the principal components approach performs
-dimension reduction on the full set of variant associations. The
-principal components are then used as instrument variables, rather than
-the individual genetic variants. The method is described in Patel et al
-(2023) “Robust use of phenotypic heterogeneity at drug target genes for
-mechanistic insights: application of cis-multivariable Mendelian
-randomization to GLP1R gene region”, doi:
+<p>The principal components GMM method is an implementation of the
+generalized method of moments (GMM) method with summarized data that is
+designed for use when performing Mendelian randomization using genetic
+variants from a single gene region. As an alternative to pruning and
+clumping approaches, which take a large number of variants from a gene
+region (potentially hundreds or thousands) and select a small number of
+uncorrelated (or weakly correlated) variants, the principal components
+approach performs dimension reduction on the full set of variant
+associations. The principal components are then used as instrument
+variables, rather than the individual genetic variants. The method is
+described in Patel et al (2023) “Robust use of phenotypic heterogeneity
+at drug target genes for mechanistic insights: application of
+cis-multivariable Mendelian randomization to GLP1R gene region”, doi:
 10.1101/2023.07.20.23292958.</p>
 <p>Note that this method requires the sample size used to calculate the
 genetic associations with the exposure (<em>nx</em>) and outcome
