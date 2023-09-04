@@ -85,9 +85,10 @@ mr_ivw(pheno_input(snps=c("rs12916", "rs2479409",
                    ancestryO = "Mixed"))
 ```
 
-(We do not implement this code here, as it requires a connection to the internet, and hence produces an error if an internet connection cannot be found. But please copy it and try it for yourself!)
+(We do not implement this code here, as it requires a connection to the internet, and hence produces an error if an internet connection cannot be found. But please copy it into R and try it for yourself!)
 
 In order to obtain the relevant summary estimates, run the *pheno_input()* function with:
+
   - *snps* is a character vector giving the rsid identifiers of the genetic variants.
   - *exposure* is a character vector giving the name of the risk factor.
   - *pmidE* is the PubMed ID of the paper where the association estimates with the exposure were first published.
