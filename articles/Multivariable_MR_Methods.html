@@ -36,12 +36,12 @@
     <div id="navbar" class="collapse navbar-collapse ms-3">
       <ul class="navbar-nav me-auto">
 <li class="nav-item">
-  <a class="nav-link" href="../reference/index.html">Reference</a>
+  <a class="nav-link" href="../reference/index.html">List of functions</a>
 </li>
 <li class="active nav-item dropdown">
-  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" id="dropdown-articles">Articles</a>
-  <div class="dropdown-menu" aria-labelledby="dropdown-articles">
-    <a class="dropdown-item" href="../articles/Data_Input.html">Data Input</a>
+  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" id="dropdown-package-components">Package components</a>
+  <div class="dropdown-menu" aria-labelledby="dropdown-package-components">
+    <a class="dropdown-item" href="../articles/Data_Input.html">Data Input commands</a>
     <a class="dropdown-item" href="../articles/Univariable_MR_Methods.html">Univariable estimation methods</a>
     <a class="dropdown-item" href="../articles/Multivariable_MR_Methods.html">Multivariable estimation methods</a>
     <a class="dropdown-item" href="../articles/Graphs_for_MR.html">Graphical summaries of results</a>
@@ -97,7 +97,7 @@ risk factor or mediator. In both cases, multivariable estimates reflect
 direct causal effects - the result of intervening on the risk factor
 under analysis while keeping other risk factors in the model fixed.</p>
 <div class="section level2">
-<h2 id="the-mrmvinput-format">the MRMVInput format<a class="anchor" aria-label="anchor" href="#the-mrmvinput-format"></a>
+<h2 id="input-format">Input format<a class="anchor" aria-label="anchor" href="#input-format"></a>
 </h2>
 <p>As the multivariable method requires genetic associations with
 multiple risk factors, a different input function is needed:
@@ -367,10 +367,19 @@ find a global minimum.</p>
 <h2 id="multivariable-gmm">Multivariable GMM<a class="anchor" aria-label="anchor" href="#multivariable-gmm"></a>
 </h2>
 <p>Multivariable Mendelian randomization via the generalized method of
-moments method as described in Hansen (1982) “Large sample properties of
-generalized method of moments estimators” DOI 10.2307/1912775</p>
-<p>The method accounts for overdispersion heterogeneity in genetic
-variant-outcome associations.</p>
+moments method (GMM) is implemented by the <em>mr_mvgmm</em> command.
+The key advantage of the GMM method is that estimates are more robust to
+weak instrument bias and/or measurement error in the exposures compared
+with the standard IVW method. Weak instrument bias is particularly
+important in the multivariable setting, as bias in the multivariable
+setting can be in any direction, particularly if instrument strength
+varies between the exposures.</p>
+<p>Unlike the multivariable IVW method (<em>mr_mvivw</em>), the
+multivariable GMM method requires the sample sizes for genetic
+associations with the exposure, and the sample size for the genetic
+associations with the outcome. The method accounts for overdispersion
+heterogeneity in genetic variant-outcome associations (using the default
+option <em>robust = TRUE</em>).</p>
 <div class="sourceCode" id="cb16"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">MVGMMObject</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/mr_mvgmm.html">mr_mvgmm</a></span><span class="op">(</span><span class="va">MVMRInputObject</span>, nx<span class="op">=</span><span class="fu"><a href="https://rdrr.io/r/base/rep.html" class="external-link">rep</a></span><span class="op">(</span><span class="fl">17723</span>,<span class="fl">3</span><span class="op">)</span>, ny<span class="op">=</span><span class="fl">17723</span><span class="op">)</span></span>
 <span></span>
@@ -420,7 +429,7 @@ should cope well with variants correlated below this level.</p>
 <p>This method provides two-sample multivariable Mendelian randomization
 estimates and associated confidence intervals that account for
 overdispersion heterogeneity in dimension-reduced genetic associations
-(when robust = TRUE).</p>
+(when <em>robust = TRUE</em>).</p>
 <div class="sourceCode" id="cb18"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">MVpcGMMObject</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/mr_mvpcgmm.html">mr_mvpcgmm</a></span><span class="op">(</span><span class="va">MVMRInputObject.cor</span>, nx<span class="op">=</span><span class="fu"><a href="https://rdrr.io/r/base/rep.html" class="external-link">rep</a></span><span class="op">(</span><span class="fl">17723</span>,<span class="fl">3</span><span class="op">)</span>, ny<span class="op">=</span><span class="fl">17723</span><span class="op">)</span></span>
 <span></span>
@@ -481,7 +490,7 @@ literature.</p>
 
     <footer><div class="pkgdown-footer-left">
   <p></p>
-<p>Developed by Stephen BurgessA, Olena Yavorska, James Staley.</p>
+<p>Developed by Stephen Burgess, Olena Yavorska.</p>
 </div>
 
 <div class="pkgdown-footer-right">

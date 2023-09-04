@@ -36,12 +36,12 @@
     <div id="navbar" class="collapse navbar-collapse ms-3">
       <ul class="navbar-nav me-auto">
 <li class="nav-item">
-  <a class="nav-link" href="../reference/index.html">Reference</a>
+  <a class="nav-link" href="../reference/index.html">List of functions</a>
 </li>
 <li class="active nav-item dropdown">
-  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" id="dropdown-articles">Articles</a>
-  <div class="dropdown-menu" aria-labelledby="dropdown-articles">
-    <a class="dropdown-item" href="../articles/Data_Input.html">Data Input</a>
+  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" id="dropdown-package-components">Package components</a>
+  <div class="dropdown-menu" aria-labelledby="dropdown-package-components">
+    <a class="dropdown-item" href="../articles/Data_Input.html">Data Input commands</a>
     <a class="dropdown-item" href="../articles/Univariable_MR_Methods.html">Univariable estimation methods</a>
     <a class="dropdown-item" href="../articles/Multivariable_MR_Methods.html">Multivariable estimation methods</a>
     <a class="dropdown-item" href="../articles/Graphs_for_MR.html">Graphical summaries of results</a>
@@ -125,7 +125,7 @@ message appears to remind the user of the importance of correct
 harmonization of the correlation matrix to the same effect and other
 alleles as the genetic associations with the exposure and outcome.</p>
 <div class="section level4">
-<h4 id="ivw-example-with-uncorrelated-variants">IVW Example with uncorrelated variants<a class="anchor" aria-label="anchor" href="#ivw-example-with-uncorrelated-variants"></a>
+<h4 id="ivw-method-example-with-uncorrelated-variants">IVW method: Example with uncorrelated variants<a class="anchor" aria-label="anchor" href="#ivw-method-example-with-uncorrelated-variants"></a>
 </h4>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">MRInputObject</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/mr_input.html">mr_input</a></span><span class="op">(</span>bx <span class="op">=</span> <span class="va">ldlc</span>, </span>
@@ -178,7 +178,7 @@ alleles as the genetic associations with the exposure and outcome.</p>
 <span>                              corr <span class="op">=</span> <span class="va">calc.rho</span><span class="op">)</span></span></code></pre></div>
 </div>
 <div class="section level4">
-<h4 id="example-with-uncorrelated-variants">Example with uncorrelated variants<a class="anchor" aria-label="anchor" href="#example-with-uncorrelated-variants"></a>
+<h4 id="ivw-method-example-with-correlated-variants">IVW method: example with correlated variants<a class="anchor" aria-label="anchor" href="#ivw-method-example-with-correlated-variants"></a>
 </h4>
 <div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">MRInputObject.cor</span>  <span class="co"># example with correlated variants</span></span></code></pre></div>
@@ -826,7 +826,7 @@ literature.</p>
 
     <footer><div class="pkgdown-footer-left">
   <p></p>
-<p>Developed by Stephen BurgessA, Olena Yavorska, James Staley.</p>
+<p>Developed by Stephen Burgess, Olena Yavorska.</p>
 </div>
 
 <div class="pkgdown-footer-right">
