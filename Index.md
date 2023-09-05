@@ -81,7 +81,6 @@ mr_plot(MRInputObject, line="ivw", interactive = FALSE) # plot results
 
 <div class="figure">
 <img src="man/figures/README-Image2-1.png" alt="plot of chunk Image2" width="100%" />
-<p class="caption">plot of chunk Image2</p>
 </div>
 
 ### Alternative analysis methods
@@ -105,7 +104,6 @@ mr_plot(MRAllObject) # plot results
 
 <div class="figure">
 <img src="man/figures/README-Image3-1.png" alt="plot of chunk Image3" width="100%" />
-<p class="caption">plot of chunk Image3</p>
 </div>
 
 For more methods, see the vignettes on [univariable](articles/Univariable_MR_Methods.html) and [multivariable](articles/Multivariable_MR_Methods.html) methods.
