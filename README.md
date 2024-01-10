@@ -2,7 +2,7 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/amymariemason/MR_public_scratch/actions/workflows/r.yml/badge.svg)](https://github.com/amymariemason/MR_public_scratch/actions/workflows/r.yml)
+[![R-CMD-check](https://github.com/amymariemason/MR/actions/workflows/r.yml/badge.svg)](https://github.com/amymariemason/MR/actions/workflows/r.yml)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/MendelianRandomization)](https://CRAN.R-project.org/package=MendelianRandomization)
 
@@ -35,7 +35,7 @@ install.packages("MendelianRandomization")
 If you are just getting started with Mendelian randomization, we
 recommend following the brief example analysis below, and then working
 through the package component vignettes, starting with the [data input
-vignette](articles/Data_Input.html).
+vignette](https://amymariemason.github.io/MR/articles/Data_Input.html).
 
 ## Bugs and Feedback
 
@@ -121,5 +121,7 @@ mr_plot(MRAllObject) # plot results
 <img src="man/figures/README-Image3-1.png" width="100%" />
 
 For more methods, see the vignettes on
-[univariable](articles/Univariable_MR_Methods.html) and
-[multivariable](articles/Multivariable_MR_Methods.html) methods.
+[univariable](https://amymariemason.github.io/MR/articles/Univariable_MR_Methods.html)
+and
+[multivariable](https://amymariemason.github.io/MR/articles/Multivariable_MR_Methods.html)
+methods.

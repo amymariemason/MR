@@ -72,31 +72,56 @@
 
     Code
       mr_cML(Input1, random_start = 10, num_pert = 5, MA = TRUE, DP = TRUE, n = 17723)
-    Warning <simpleWarning>
+    Condition
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
     Output
       
@@ -112,129 +137,252 @@
 
     Code
       mr_cML(Input1, random_start_pert = 10, num_pert = 5, MA = TRUE, DP = TRUE, n = 17723)
-    Warning <simpleWarning>
+    Condition
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
+      Warning in `cML_estimate_random()`:
       May not converge to minimums with some given start points and maximum number of iteration, lead to Fisher Information matrices not positive definite. Could try increasing number of iterations (maxit) or try different start points. Note: If multiple random start points are used, this warning does not likely affect result.
     Output
       
