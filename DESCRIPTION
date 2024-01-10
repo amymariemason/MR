@@ -85,6 +85,6 @@ Suggests:
 Config/testthat/edition: 3
 RoxygenNote: 7.2.3
 NeedsCompilation: yes
-URL: https://github.com/amymariemason/MR_public_scratch,
-    https://amymariemason.github.io/MR_public_scratch/
+URL: https://github.com/amymariemason/MR,
+    https://amymariemason.github.io/MR/
 Contact: sb452@medschl.cam.ac.uk
