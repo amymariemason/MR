@@ -8,6 +8,9 @@ Input1<-mr_mvinput(bx = cbind(ldlc, hdlc, trig),
                    by = chdlodds, byse = chdloddsse,
                    correlation = diag(length(ldlc)))
 
+
+TESTY TEST TEST
+
 library(randcorr)
 set.seed(1234)
 corr_test <- randcorr(28)
