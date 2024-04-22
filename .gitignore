@@ -9,3 +9,7 @@ inst/doc
 docs
 /doc/
 /Meta/
+inst/doc/Vignette_MR.Rmd
+inst/doc/Vignette_MR.R
+inst/doc/Vignette_MR.pdf
+vignettes/Vignette_MR.Rmd
