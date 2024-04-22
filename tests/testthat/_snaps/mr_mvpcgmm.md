@@ -8,20 +8,20 @@
       
       Exposure correlation matrix not specified. Exposures are assumed to be uncorrelated.
       
-      Number of principal components used : 25 
+      Number of principal components used : 20 
       
       Robust model with overdispersion heterogeneity.
       
       ------------------------------------------------------------------
          Exposure Estimate Std Error  95% CI       p-value Cond F-stat
-       exposure_1    1.695     0.517  0.681, 2.709   0.001        18.6
-       exposure_2   -0.754     0.759 -2.240, 0.733   0.321        10.2
-       exposure_3    0.682     0.292  0.110, 1.255   0.020        10.8
+       exposure_1    1.662     0.689  0.312, 3.012   0.016        19.6
+       exposure_2   -1.712     0.998 -3.667, 0.244   0.086         8.6
+       exposure_3    0.419     0.352 -0.272, 1.109   0.234        10.5
       ------------------------------------------------------------------
       
-      Overdispersion heterogeneity parameter estimate = 25.5785 
+      Overdispersion heterogeneity parameter estimate = 38.5163 
       
-      Heterogeneity test statistic = 21.5116
+      Heterogeneity test statistic = 15.6455
 
 # mvpcgmm applied to correlated object
 
@@ -33,20 +33,20 @@
       
       Exposure correlation matrix not specified. Exposures are assumed to be uncorrelated.
       
-      Number of principal components used : 18 
+      Number of principal components used : 13 
       
       Robust model with overdispersion heterogeneity.
       
       ------------------------------------------------------------------
-         Exposure Estimate Std Error  95% CI       p-value Cond F-stat
-       exposure_1    1.239     0.775 -0.280, 2.757   0.110        16.6
-       exposure_2   -1.828     0.973 -3.735, 0.080   0.060        12.6
-       exposure_3    0.520     0.372 -0.209, 1.249   0.162        13.3
+         Exposure Estimate Std Error  95% CI        p-value Cond F-stat
+       exposure_1    1.395     0.569  0.280,  2.509   0.014        16.6
+       exposure_2   -2.157     0.836 -3.796, -0.518   0.010         8.1
+       exposure_3    0.473     0.247 -0.011,  0.956   0.055        11.4
       ------------------------------------------------------------------
       
-      Overdispersion heterogeneity parameter estimate = 39.3250 
+      Overdispersion heterogeneity parameter estimate = -0.1651 
       
-      Heterogeneity test statistic = 14.9855
+      Heterogeneity test statistic = 9.8416
 
 # mvpcgmm applied with correlation matrix on exposures
 
@@ -56,20 +56,20 @@
       
       Multivariable principal components generalized method of moments (PC-GMM) method
       
-      Number of principal components used : 18 
+      Number of principal components used : 13 
       
       Robust model with overdispersion heterogeneity.
       
       ------------------------------------------------------------------
          Exposure Estimate Std Error  95% CI        p-value Cond F-stat
-       exposure_1    1.214     0.765 -0.284,  2.713   0.112        31.4
-       exposure_2   -1.945     0.951 -3.809, -0.081   0.041        30.7
-       exposure_3    0.510     0.364 -0.204,  1.224   0.162        90.8
+       exposure_1    1.420     0.599  0.245,  2.595   0.018        26.5
+       exposure_2   -2.195     0.878 -3.916, -0.474   0.012        17.0
+       exposure_3    0.460     0.260 -0.049,  0.969   0.077        59.4
       ------------------------------------------------------------------
       
-      Overdispersion heterogeneity parameter estimate = 34.8973 
+      Overdispersion heterogeneity parameter estimate = -1.2800 
       
-      Heterogeneity test statistic = 15.0000
+      Heterogeneity test statistic = 8.8763
 
 # mvpcgmm with r changed
 
@@ -131,18 +131,18 @@
       
       Exposure correlation matrix not specified. Exposures are assumed to be uncorrelated.
       
-      Number of principal components used : 18 
+      Number of principal components used : 13 
       
       Non-robust model with no overdispersion heterogeneity.
       
       ------------------------------------------------------------------
          Exposure Estimate Std Error  95% CI        p-value Cond F-stat
-       exposure_1    1.238     0.435  0.385,  2.090   0.004        16.6
-       exposure_2   -1.822     0.533 -2.866, -0.778   0.001        12.6
-       exposure_3    0.504     0.198  0.115,  0.893   0.011        13.3
+       exposure_1    1.395     0.569  0.280,  2.509   0.014        16.6
+       exposure_2   -2.157     0.836 -3.796, -0.518   0.010         8.1
+       exposure_3    0.473     0.247 -0.011,  0.956   0.055        11.4
       ------------------------------------------------------------------
       
-      Heterogeneity test statistic = 32.0349 on 15 degrees of freedom, (p-value = 0.0064)
+      Heterogeneity test statistic = 9.8416 on 10 degrees of freedom, (p-value = 0.4545)
 
 # mvpcgmm with alpha changed
 
@@ -154,18 +154,18 @@
       
       Exposure correlation matrix not specified. Exposures are assumed to be uncorrelated.
       
-      Number of principal components used : 18 
+      Number of principal components used : 13 
       
       Robust model with overdispersion heterogeneity.
       
       ------------------------------------------------------------------
          Exposure Estimate Std Error 99.9% CI       p-value Cond F-stat
-       exposure_1    1.239     0.775  -1.311, 3.788   0.110        16.6
-       exposure_2   -1.828     0.973  -5.031, 1.375   0.060        12.6
-       exposure_3    0.520     0.372  -0.705, 1.745   0.162        13.3
+       exposure_1    1.395     0.569  -0.477, 3.266   0.014        16.6
+       exposure_2   -2.157     0.836  -4.908, 0.594   0.010         8.1
+       exposure_3    0.473     0.247  -0.339, 1.284   0.055        11.4
       ------------------------------------------------------------------
       
-      Overdispersion heterogeneity parameter estimate = 39.3250 
+      Overdispersion heterogeneity parameter estimate = -0.1651 
       
-      Heterogeneity test statistic = 14.9855
+      Heterogeneity test statistic = 9.8416
 

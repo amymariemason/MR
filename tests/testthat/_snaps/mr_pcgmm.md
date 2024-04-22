@@ -6,18 +6,18 @@
       
       Univariable principal components generalized method of moments (PC-GMM) method
       
-      Number of principal components used : 13 
+      Number of principal components used : 9 
       
       Robust model with overdispersion heterogeneity.
       
       ------------------------------------------------------------------
        Method Estimate Std Error 95% CI       p-value F-stat
-       PC-GMM    3.241     0.774 1.724, 4.757   0.000   47.3
+       PC-GMM    3.486     0.451 2.603, 4.369   0.000   61.3
       ------------------------------------------------------------------
       
-      Overdispersion heterogeneity parameter estimate = 81.75673 
+      Overdispersion heterogeneity parameter estimate = 9.414297 
       
-      Heterogeneity test statistic = 11.9284
+      Heterogeneity test statistic = 7.9999
 
 # pcgmm with r changed
 
@@ -69,16 +69,16 @@
       
       Univariable principal components generalized method of moments (PC-GMM) method
       
-      Number of principal components used : 13 
+      Number of principal components used : 9 
       
       Non-robust model with no overdispersion heterogeneity.
       
       ------------------------------------------------------------------
        Method Estimate Std Error 95% CI       p-value F-stat
-       PC-GMM    3.033     0.336 2.375, 3.692   0.000   47.3
+       PC-GMM    3.481     0.368 2.761, 4.201   0.000   61.3
       ------------------------------------------------------------------
       
-      Heterogeneity test statistic = 46.6439 on 12 degrees of freedom, (p-value = 0.0000)
+      Heterogeneity test statistic = 13.5438 on 8 degrees of freedom, (p-value = 0.0945)
 
 # pcgmm with alpha changed
 
@@ -88,16 +88,16 @@
       
       Univariable principal components generalized method of moments (PC-GMM) method
       
-      Number of principal components used : 13 
+      Number of principal components used : 9 
       
       Robust model with overdispersion heterogeneity.
       
       ------------------------------------------------------------------
        Method Estimate Std Error 99.9% CI       p-value F-stat
-       PC-GMM    3.241     0.774   0.695, 5.786   0.000   47.3
+       PC-GMM    3.486     0.451   2.003, 4.969   0.000   61.3
       ------------------------------------------------------------------
       
-      Overdispersion heterogeneity parameter estimate = 81.75673 
+      Overdispersion heterogeneity parameter estimate = 9.414297 
       
-      Heterogeneity test statistic = 11.9284
+      Heterogeneity test statistic = 7.9999
 

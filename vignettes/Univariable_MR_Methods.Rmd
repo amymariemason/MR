@@ -349,6 +349,24 @@ pcGMMObject <- mr_pcgmm(mr_input(bx = calcium, bxse = calciumse,
 pcGMMObject
 ```
 
+## Conditional likelihood ratio (CLR) method
+
+The *mr_clr* function calculates confidence intervals based on inverting the conditional likelihood ratio and other identification-robust tests.
+
+In weak instrument settings, usual inference based on point estimates and standard errors may not be accurate. This method calculates confidence intervals based on inverting identification-robust tests proposed in Wang and Kang ("Weak-instrument robust tests in two-sample summary-data Mendelian randomization", S. Wang and H. Kang, Biometrics, 2021.) that provide valid inferences regardless of instrument strength.
+
+This includes conditional likelihood ratio (CLR), Kleibergen (K), and Anderson and Rubin (AR) tests.
+
+Evidence from the econometrics literature suggests that CLR inference is the best option in terms of power under a wide range of settings.
+
+Please note that these methods do not provide point estimates, only confidence intervals. While most examples provide a confidence interval that is a single range of values, in some cases the confidence interval may comprise multiple ranges of values. In other cases, a valid confidence interval may not exist.
+
+```{r}
+mr_clr(mr_input(bx = calcium, bxse = calciumse,
+   by = fastgluc, byse = fastglucse, correl = calc.rho), nx=6351, ny=133010)
+
+```
+
 ## Summaries of multiple methods
 
 The *mr_allmethods* function is provided to easily compare results (Estimate, Standard Error, 95% CI, and p-value) from multiple methods. One can look at results from a wide range of methods (*method = "all"*), or a limited set of results by setting method to *"egger"*, *"ivw"*, or *"median"*. The final option is *"main"*, which gives results from the simple median, weighted median, IVW, and MR-Egger methods only.

@@ -171,6 +171,17 @@ MVpcGMMObject
 
 Note that this *mr_mvpcgmm* example does not use variants from a single gene region. It is provided to demonstrate that the code works, rather than to illustrate a recommended use case.
 
+## Multivariable inverse-variance weighted method with measurement error
+
+The *mr_mvivwme* function performs multivariable Mendelian randomization via the inverse-variance method with measurement error, to account for measurement error in the genetic associations with the exposure traits. See Zhu, Jiazheng, Stephen Burgess, and Andrew J. Grant. Bias in Multivariable Mendelian Randomization Studies Due to Measurement Error on Exposures, 2022. DOI https://doi.org/10.48550/arXiv.2203.08668.
+
+```{r}
+
+mr_mvivwme(mr_mvinput(bx = cbind(ldlc, hdlc, trig), bxse = cbind(ldlcse, hdlcse, trigse),
+   by = chdlodds, byse = chdloddsse))
+  
+```  
+
 
 ## Final note of caution
 
