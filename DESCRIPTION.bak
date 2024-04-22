@@ -1,9 +1,15 @@
 Package: MendelianRandomization
 Type: Package
 Title: Mendelian Randomization Package
+<<<<<<< HEAD
+Version: 0.9.0
+Date: 2023-08-07
+Authors@R:
+=======
 Version: 0.10.0
 Date: 2024-04-12
 Authors@R: 
+>>>>>>> 2e6f8aa6db24adc8a990448da898aba0f7819ca6
  c(person(given="Stephen",
           family="Burgess",
           role=c("aut", "cre"),
@@ -53,6 +59,9 @@ Authors@R:
    person(given="Ashish",
           family="Patel",
           role="ctb",
+<<<<<<< HEAD
+          comment = c(ORCID = "0000-0002-0350-4365")))
+=======
           comment = c(ORCID = "0000-0002-0350-4365")),
    person(given="Hyunseung",
           family="Kang",
@@ -65,6 +74,7 @@ Authors@R:
           role="ctb",
           comment = c(ORCID = "0000-0001-6064-1588")))
 Maintainer: Stephen Burgess <sb452@medschl.cam.ac.uk>
+>>>>>>> 2e6f8aa6db24adc8a990448da898aba0f7819ca6
 Description: Encodes several methods for performing Mendelian randomization
     analyses with summarized data. Summarized data on genetic associations with the
     exposure and with the outcome can be obtained from large consortia. These data
@@ -90,6 +100,7 @@ LinkingTo:
     Rcpp,
     RcppArmadillo
 VignetteBuilder: knitr
+<<<<<<< HEAD
 Suggests:
     testthat (>= 3.0.0),
     randcorr
@@ -99,3 +110,26 @@ NeedsCompilation: yes
 URL: https://github.com/amymariemason/MR,
     https://amymariemason.github.io/MR
 Contact: sb452@medschl.cam.ac.uk
+=======
+RoxygenNote: 7.3.1
+NeedsCompilation: yes
+Packaged: 2024-04-12 09:48:50 UTC; sb452
+Author: Stephen Burgess [aut, cre] (<https://orcid.org/0000-0001-5365-8760>),
+  Olena Yavorska [aut],
+  James Staley [ctb] (<https://orcid.org/0009-0001-9520-5011>),
+  Fernando Hartwig [ctb] (<https://orcid.org/0000-0003-3729-0710>),
+  Jim Broadbent [ctb] (<https://orcid.org/0000-0002-5685-6241>),
+  Christopher Foley [ctb] (<https://orcid.org/0000-0002-0970-2610>),
+  Andrew Grant [ctb],
+  Amy Mason [ctb] (<https://orcid.org/0000-0002-8019-0777>),
+  Ting Ye [ctb] (<https://orcid.org/0000-0001-6009-641X>),
+  Haoran Xue [ctb] (<https://orcid.org/0000-0001-7923-6128>),
+  Zhaotong Lin [ctb] (<https://orcid.org/0000-0001-8723-4392>),
+  Siqi Xu [ctb],
+  Ashish Patel [ctb] (<https://orcid.org/0000-0002-0350-4365>),
+  Hyunseung Kang [ctb],
+  Sheng Wang [ctb],
+  Ville Karhunen [ctb] (<https://orcid.org/0000-0001-6064-1588>)
+Repository: CRAN
+Date/Publication: 2024-04-12 10:10:02 UTC
+>>>>>>> 2e6f8aa6db24adc8a990448da898aba0f7819ca6
