@@ -17,7 +17,9 @@ status](https://www.r-pkg.org/badges/version/MendelianRandomization)](https://CR
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
-  fig.path = "man/figures/README-",
+  fig.path = "man/figures/readme-",
+  fig.align='center', 
+  fig.cap='',
   out.width = "100%"
 )
 ```

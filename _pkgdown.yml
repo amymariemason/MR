@@ -108,7 +108,6 @@ reference:
   - cML_estimate
   - cML_estimate_random
   - cML_SdTheta
-  - extract.pheno.csv
   - invcov_mvmr
   - MVcML_SdTheta
   - MVmr_cML
