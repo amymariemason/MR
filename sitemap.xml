@@ -31,6 +31,9 @@
     <loc>https://amymariemason.github.io/MR/reference/BF_dist.html</loc>
   </url>
   <url>
+    <loc>https://amymariemason.github.io/MR/reference/CLR-class.html</loc>
+  </url>
+  <url>
     <loc>https://amymariemason.github.io/MR/reference/DIVW-class.html</loc>
   </url>
   <url>
@@ -71,6 +74,9 @@
   </url>
   <url>
     <loc>https://amymariemason.github.io/MR/reference/MVIVW-class.html</loc>
+  </url>
+  <url>
+    <loc>https://amymariemason.github.io/MR/reference/MVIVWME-class.html</loc>
   </url>
   <url>
     <loc>https://amymariemason.github.io/MR/reference/MVLasso-class.html</loc>
@@ -136,9 +142,6 @@
     <loc>https://amymariemason.github.io/MR/reference/egger.bounds.html</loc>
   </url>
   <url>
-    <loc>https://amymariemason.github.io/MR/reference/extract.pheno.csv.html</loc>
-  </url>
-  <url>
     <loc>https://amymariemason.github.io/MR/reference/getter.html</loc>
   </url>
   <url>
@@ -176,6 +179,9 @@
   </url>
   <url>
     <loc>https://amymariemason.github.io/MR/reference/mr_cML.html</loc>
+  </url>
+  <url>
+    <loc>https://amymariemason.github.io/MR/reference/mr_clr.html</loc>
   </url>
   <url>
     <loc>https://amymariemason.github.io/MR/reference/mr_conmix.html</loc>
@@ -232,6 +238,9 @@
     <loc>https://amymariemason.github.io/MR/reference/mr_mvivw.html</loc>
   </url>
   <url>
+    <loc>https://amymariemason.github.io/MR/reference/mr_mvivwme.html</loc>
+  </url>
+  <url>
     <loc>https://amymariemason.github.io/MR/reference/mr_mvlasso.html</loc>
   </url>
   <url>
@@ -248,6 +257,9 @@
   </url>
   <url>
     <loc>https://amymariemason.github.io/MR/reference/mr_plot.html</loc>
+  </url>
+  <url>
+    <loc>https://amymariemason.github.io/MR/reference/mv_norm.html</loc>
   </url>
   <url>
     <loc>https://amymariemason.github.io/MR/reference/penalised.weights.delta.html</loc>
