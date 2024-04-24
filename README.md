@@ -5,7 +5,7 @@
 [![R-CMD-check](https://github.com/amymariemason/MR/actions/workflows/r.yml/badge.svg)](https://github.com/amymariemason/MR/actions/workflows/r.yml)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/MendelianRandomization)](https://CRAN.R-project.org/package=MendelianRandomization)
-
+[![R-CMD-check](https://github.com/amymariemason/MR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/amymariemason/MR/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The MendelianRandomization R package provides a comprehensive set of
